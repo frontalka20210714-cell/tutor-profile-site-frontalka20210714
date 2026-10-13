@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    const mailtoLink = `mailto:anna.tutor@example.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:tarasov.dionis@example.com?subject=${encodeURIComponent(
       'Запись на урок: ' + subject
     )}&body=${encodeURIComponent(
       `Имя: ${name}\nEmail: ${email}\nПредмет: ${subject}\n\nЦель: ${message || 'Не указана'}\n\nПожалуйста, свяжитесь со мной для согласования времени урока.`
